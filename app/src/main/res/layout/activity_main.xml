@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="746dp"
+        android:background="#E4AAEF"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="20dp">
+
+        <TextView
+            android:id="@+id/textView_respuesta"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="#B277F6"
+            android:hint="Tablet Layout"
+            android:text="Tablet Layout"
+            android:textAlignment="center"
+            android:textColor="#0E0E0E"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTime"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="#AD6ECF"
+            android:ems="10"
+            android:hint="TIME"
+            android:inputType="time"
+            android:textAlignment="center"
+            android:textColor="#151515"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/editTextTextnombre"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#E65E8C"
+            android:ems="10"
+            android:hint="First Name"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="#0B0B0B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextapellido"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#F14982"
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="#100F0F"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@android:style/Widget.RatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:numStars="5"
+            android:rating="0" />
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="373dp"
+            android:layout_height="72dp"
+            android:background="#4AA31A"
+            android:text="Submit"
+            android:textSize="24sp"
+            app:backgroundTint="#AC2BE3" />
+
+    </LinearLayout>
+
+</LinearLayout>
